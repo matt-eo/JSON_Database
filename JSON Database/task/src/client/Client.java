@@ -47,7 +47,7 @@ class Client {
     }
 
     private String getRequest(String fileName) {
-        String path = "/home/matteo/IdeaProjects/JSON Database1/JSON Database/task/src/client/data/" + fileName;
+        String path = "requests/" + fileName;
         File file = new File(path);
         String request = "";
 
